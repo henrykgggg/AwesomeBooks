@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+    <main>
+        <div class="container-lg ">
+            <div class="card">
+        <h1 class="pageTitle text-center">All Books</h1>
+
+                <table class="table table-stripped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Book</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                <tbody id="book-list">
+
+                </tbody>
+            </table>
+<div class="formSection">
+    
+            <form class="row g-3 " id="book-form">
+  
+  <div class="col-sm-4">
+    <label for="title" class="visually-hidden">Title</label>
+    <input type="text" class="form-control" id="title" placeholder="Title" required>
+  </div>
+  <div class="col-sm-4">
+    <label for="author" class="visually-hidden">Author</label>
+    <input type="text" class="form-control" id="author" placeholder="Author" required>
+  </div>
+  <div class="">
+    <button type="submit" id="submit" class="btn btn-primary mb-3">Add Book</button>
+  </div>
+</form>
+</div>
+
+          
+            </div>
+        </div>
+        
+
+    </main>
+    <!-- <script src="./scripts/index.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="scripts/class.js"></script>
+</body>
+
+</html>
